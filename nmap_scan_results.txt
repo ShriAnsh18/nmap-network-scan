@@ -1,0 +1,47 @@
+# Nmap 7.80 scan initiated Wed May 27 20:25:26 2026 as: nmap -sV -oN nmap_scan_results.txt 127.0.0.1
+Nmap scan report for kubernetes.docker.internal (127.0.0.1)
+Host is up (0.000077s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+1434/tcp open  tcpwrapped
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.80%I=7%D=5/27%Time=6A1705E5%P=i686-pc-windows-windows%
+SF:r(NULL,4E,"J\0\0\0\n8\.0\.44\0\x80\0\0\0@dwv\x14;7\x12\0\xff\xff\xff\x0
+SF:2\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0o<\x01waCqOp,\x20I\0caching_sha2_pas
+SF:sword\0")%r(GenericLines,73,"J\0\0\0\n8\.0\.44\0\x80\0\0\0@dwv\x14;7\x1
+SF:2\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0o<\x01waCqOp,\x20I
+SF:\0caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20o
+SF:ut\x20of\x20order")%r(GetRequest,73,"J\0\0\0\n8\.0\.44\0\x81\0\0\0\x19\
+SF:x0ft6\x12\x1c\x1bm\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0r
+SF:\x06-bW\x06U\x19txKM\0caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S0
+SF:1Got\x20packets\x20out\x20of\x20order")%r(HTTPOptions,73,"J\0\0\0\n8\.0
+SF:\.44\0\x82\0\0\0\x1cU8i2wm\x1a\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\
+SF:0\0\0\0\0\0ezaNE\x06O\x04\x0c\x1f\x15\(\0caching_sha2_password\0!\0\0\x
+SF:01\xff\x84\x04#08S01Got\x20packets\x20out\x20of\x20order")%r(RTSPReques
+SF:t,73,"J\0\0\0\n8\.0\.44\0\x83\0\0\0\[\x1c\+\x18!{x\x12\0\xff\xff\xff\x0
+SF:2\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0\x1b\x1fOA\x1e\x0739\x1f7DT\0caching
+SF:_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20out\x20of\
+SF:x20order")%r(RPCCheck,73,"J\0\0\0\n8\.0\.44\0\x84\0\0\0I}m\x03\(\x0f\.\
+SF:x06\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0XAW\x13u\.\x1b@Z
+SF:;47\0caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x
+SF:20out\x20of\x20order")%r(DNSVersionBindReqTCP,73,"J\0\0\0\n8\.0\.44\0\x
+SF:85\0\0\0wrqV}\x1c\\'\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\
+SF:0,\x08\x03BY\x06&x2&\x1a#\0caching_sha2_password\0!\0\0\x01\xff\x84\x04
+SF:#08S01Got\x20packets\x20out\x20of\x20order")%r(DNSStatusRequestTCP,73,"
+SF:J\0\0\0\n8\.0\.44\0\x86\0\0\0;l-\x08gGQH\0\xff\xff\xff\x02\0\xff\xdf\x1
+SF:5\0\0\0\0\0\0\0\0\0\0\[L\x01GrnEN\x15\x1a=u\0caching_sha2_password\0!\0
+SF:\0\x01\xff\x84\x04#08S01Got\x20packets\x20out\x20of\x20order")%r(Help,7
+SF:3,"J\0\0\0\n8\.0\.44\0\x87\0\0\0cX\x10xD%%:\0\xff\xff\xff\x02\0\xff\xdf
+SF:\x15\0\0\0\0\0\0\0\0\0\0uC<O!\x0f\x11qf\x1a#w\0caching_sha2_password\0!
+SF:\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20out\x20of\x20order")%r(SSLS
+SF:essionReq,73,"J\0\0\0\n8\.0\.44\0\x88\0\0\0%WcBSB\x05\x0f\0\xff\xff\xff
+SF:\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0\x11o`>\x1c\x064`\x11F\x02t\0cach
+SF:ing_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20out\x20
+SF:of\x20order");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 27 20:25:45 2026 -- 1 IP address (1 host up) scanned in 18.77 seconds
